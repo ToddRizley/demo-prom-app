@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import AppClassic from './AppClassic';
+import AppFunctional from './AppFunctional';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppClassic />
+    {/* <AppFunctional /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

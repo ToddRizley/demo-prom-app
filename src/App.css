@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.container { padding-top: 30px; }
+form { margin: 20px 0; }
+#payment_method-affirm { margin: 0 0 10px 10px; }
